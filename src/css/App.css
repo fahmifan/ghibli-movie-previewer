@@ -2,3 +2,11 @@
 body {
   background: #555;
 }
+
+.bg-washed-blue  {
+  background-color: #61dafb;
+}
+
+.z-200 {
+  z-index: 200;
+}
