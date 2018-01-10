@@ -11,10 +11,10 @@ export default (props) => {
   return (
     <section>
       <article className="fl w-100 w-50-m w-25-ns pa2-ns mv3">
-        <div className="m-100 h5 flex flex-column items-center shadow-4">
-          <img src={logo} alt="pic" className="h-100 items-center"/>
+        <div className="aspect-ratio aspect-ratio--1x1 flex flex-row justify-center shadow-3 bg-white br3 br--top">
+          <img src={logo} alt="pic" className="w5 h5"/>
         </div>
-        <a href="#" className="pv2 ph3 ph0-ns pb3 link db helvetica shadow-4">
+        <a href="#" className="mt1 pv2 ph3 pb3 link db helvetica shadow-3 bg-white b3 br3 br--bottom">
           <h3 className="f5 f4-ns mb0 black-90">Castle in the Sky</h3>
           <h3 className="f6 f5 fw4 mt2 mb0 black-60">Release date: 1986</h3>
           <div className="w3 h2 flex flex-row items-center">
