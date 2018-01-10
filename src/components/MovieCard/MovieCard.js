@@ -15,10 +15,10 @@ export default (props) => {
           <img src={logo} alt="pic" className="w5 h5"/>
         </div>
         <a href="#" className="mt1 pv2 ph3 pb3 link db helvetica shadow-3 bg-white b3 br3 br--bottom">
-          <h3 className="f5 f4-ns mb0 black-90">Castle in the Sky</h3>
-          <h3 className="f6 f5 fw4 mt2 mb0 black-60">Release date: 1986</h3>
+          <h3 className="f5 f4-ns mb0 black-90">{props.title}</h3>
+          <h3 className="f6 f5 fw4 mt2 mb0 black-60">Release date: {props.relDate}</h3>
           <div className="w3 h2 flex flex-row items-center">
-            <span>{star}</span> <span className="black">95</span>
+            <span>{star}</span> <span className="black">{props.rtScore}</span>
           </div>
         </a>
       </article>
