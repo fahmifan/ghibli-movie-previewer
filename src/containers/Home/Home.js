@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import axios from 'axios';
 
 import MovieCard from '../../components/MovieCard/MovieCard';
@@ -54,6 +53,11 @@ class Home extends Component {
     }
     return (
       <div className="w-90 w-100-ns pt5 mh0 center">
+        {this.state.isModalShowed && (
+          <div className="flex flex-column items-center h-100"> 
+            <ModalDetail detail={this.state.movieDetail} />
+          </div>
+        )}
         {movies}
       </div>
     );
