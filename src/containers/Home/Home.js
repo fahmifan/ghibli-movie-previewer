@@ -27,7 +27,7 @@ class Home extends Component {
   }
 
   render() {
-    let movies = <h1 className="helvetica tc center white mt5">Loading...</h1>;
+    let movies = <div className="loader"></div>;
     if(!this.state.loading) {
       movies = this.state.films.map(movie => {
         return <MovieCard 
