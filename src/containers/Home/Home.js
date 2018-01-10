@@ -28,12 +28,18 @@ class Home extends Component {
 
   render() {
     let movies = <h1 className="helvetica tc center white mt5">Loading...</h1>;
+    if(!this.state.loading) {
+      movies = this.state.films.map(movie => {
+        return <MovieCard 
+          key={movie.id}
+          title={movie.title} 
+          relDate={movie.release_date} 
+          rtScore={movie.rt_score} />
+      })
+    }
     return (
       <div className="w-90 w-100-ns pt5 mh0 center">
-        <MovieCard />
-        <MovieCard />
-        <MovieCard />
-        <MovieCard />
+        {movies}
       </div>
     );
   }
