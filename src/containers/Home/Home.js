@@ -3,6 +3,7 @@ import axios from 'axios';
 
 import MovieCard from '../../components/MovieCard/MovieCard';
 import ModalDetail from '../../components/ModalDetail/ModalDetail';
+import Backdrop from '../../components/Backdrop/Backdrop';
 
 class Home extends Component {
   state = {
@@ -64,10 +65,17 @@ class Home extends Component {
     return (
       <div className="w-90 w-100-ns pt5 mh0 center">
         {this.state.isModalShowed && (
-          <div className="flex flex-column items-center h-100"> 
+          <div>
+            <div className="flex flex-column items-center h-100"> 
+              <ModalDetail 
                 detail={this.state.movieDetail} 
                 closeButtonClicked={this.modalCloseClicked}
                 modalClose={this.state.isModalCloseButton} />
+            </div>
+            <Backdrop
+              clicked={this.backdropClicked}
+              modalClose={this.state.isModalCloseButton} 
+              />
           </div>
         )}
         {movies}
