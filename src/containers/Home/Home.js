@@ -9,6 +9,18 @@ class Home extends Component {
     films: null,
     loading: false
   }
+  getFilms = () => {
+    const baseUrl =  'https://ghibliapi.herokuapp.com';
+    this.setState({loading: true});
+    axios.get(baseUrl + '/films')
+      .then(res => {
+        this.setState({
+          films: res.data,
+          loading: false
+        })
+      })
+  }
+
   render() {
     return (
       <div className="w-90 w-100-ns pt5 mh0 center">
