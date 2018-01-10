@@ -10,7 +10,7 @@ export default (props) => {
 
   return (
     <section>
-      <article className="fl w-100 w-50-m w-25-ns pa2-ns mv3 dim pointer">
+      <article className="fl w-100 w-50-m w-25-ns pa2-ns mv3 dim pointer z-50" onClick={props.clicked}>
         <div className="aspect-ratio aspect-ratio--1x1 flex flex-row justify-center shadow-3 bg-white br3 br--top">
           <img src={logo} alt="pic" className="w5 h5"/>
         </div>
