@@ -27,6 +27,7 @@ class Home extends Component {
   }
 
   render() {
+    let movies = <h1 className="helvetica tc center white mt5">Loading...</h1>;
     return (
       <div className="w-90 w-100-ns pt5 mh0 center">
         <MovieCard />
