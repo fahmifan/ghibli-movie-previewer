@@ -42,6 +42,7 @@ class Home extends Component {
   }
 
   backdropClicked = () => {
+    this.setState({isModalCloseButton: true})
   }
 
   render() {
