@@ -9,6 +9,11 @@ class Home extends Component {
     films: null,
     loading: false
   }
+
+  componentWillMount() {
+    this.getFilms();
+  }
+
   getFilms = () => {
     const baseUrl =  'https://ghibliapi.herokuapp.com';
     this.setState({loading: true});
