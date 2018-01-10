@@ -32,7 +32,7 @@ class Home extends Component {
   render() {
     let movies = <div className="loader"></div>;
     if(!this.state.loading) {
-      movies = this.state.films.map(movie => {
+      movies = this.state.films.map( (movie, index) => {
         return <MovieCard 
           key={movie.id}
           title={movie.title} 
