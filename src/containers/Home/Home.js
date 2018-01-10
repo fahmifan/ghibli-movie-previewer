@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 import MovieCard from '../../components/MovieCard/MovieCard';
+import ModalDetail from '../../components/ModalDetail/ModalDetail';
 
 class Home extends Component {
   state = {
