@@ -36,9 +36,12 @@ class Home extends Component {
     }
     this.setState({
       isModalShowed: true,
-      movieDetail: movieDetail 
+      movieDetail: movieDetail,
+      isModalCloseButton: false 
     });
+  }
 
+  backdropClicked = () => {
   }
 
   render() {
