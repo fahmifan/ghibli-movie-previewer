@@ -29,6 +29,17 @@ class Home extends Component {
       })
   }
 
+  movieCardClicked = (index) => {
+    const movieDetail = {
+      ...this.state.films[index]
+    }
+    this.setState({
+      isModalShowed: true,
+      movieDetail: movieDetail 
+    });
+
+  }
+
   render() {
     let movies = <div className="loader"></div>;
     if(!this.state.loading) {
