@@ -9,7 +9,8 @@ class Home extends Component {
     films: null,
     loading: false,
     isModalShowed: false,
-    movieDetail: null
+    isBackdropClicked: false,
+    isModalCloseButton: false
   }
 
   componentWillMount() {
