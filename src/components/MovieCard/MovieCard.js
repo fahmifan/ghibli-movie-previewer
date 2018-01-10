@@ -10,7 +10,7 @@ export default (props) => {
 
   return (
     <section>
-      <article className="fl w-100 w-50-m w-25-ns pa2-ns mv3">
+      <article className="fl w-100 w-50-m w-25-ns pa2-ns mv3 dim pointer">
         <div className="aspect-ratio aspect-ratio--1x1 flex flex-row justify-center shadow-3 bg-white br3 br--top">
           <img src={logo} alt="pic" className="w5 h5"/>
         </div>
@@ -18,7 +18,7 @@ export default (props) => {
           <h3 className="f5 f4-ns mb0 black-90">Castle in the Sky</h3>
           <h3 className="f6 f5 fw4 mt2 mb0 black-60">Release date: 1986</h3>
           <div className="w3 h2 flex flex-row items-center">
-            <span>{star}</span> <span>95</span>
+            <span>{star}</span> <span className="black">95</span>
           </div>
         </a>
       </article>
