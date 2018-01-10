@@ -1,13 +1,16 @@
 import React from 'react';
 
-const backdrop = (props) => (
-  props.showed ? (
+const backdrop = (props) => {
+  let isDisplayed = '';
+  if(props.modalClose) {
+    isDisplayed = 'dn';
+  }
+  return  (
     <div 
-      className="Backdrop"
       onClick={props.clicked}
-      ></div>
-  ) : null 
-
-);
+      className={`Backdrop ${isDisplayed}`}
+      ></div> 
+    );
+}
 
 export default backdrop;
