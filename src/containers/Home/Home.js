@@ -8,7 +8,8 @@ import ModalDetail from '../../components/ModalDetail/ModalDetail';
 class Home extends Component {
   state = {
     films: null,
-    loading: false
+    loading: false,
+    isModalShowed: false,
   }
 
   componentWillMount() {
