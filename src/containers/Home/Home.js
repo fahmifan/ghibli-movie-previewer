@@ -45,6 +45,10 @@ class Home extends Component {
     this.setState({isModalCloseButton: true})
   }
 
+  modalCloseClicked = () => {
+    this.setState({isModalCloseButton: true})
+  }
+
   render() {
     let movies = <div className="loader"></div>;
     if(!this.state.loading) {
