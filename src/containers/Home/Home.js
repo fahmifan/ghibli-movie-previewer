@@ -36,7 +36,8 @@ class Home extends Component {
           key={movie.id}
           title={movie.title} 
           relDate={movie.release_date} 
-          rtScore={movie.rt_score} />
+          rtScore={movie.rt_score} 
+          clicked={() => this.movieCardClicked(index)}/>
       })
     }
     return (
