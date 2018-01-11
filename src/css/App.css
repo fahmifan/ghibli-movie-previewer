@@ -3,6 +3,10 @@ body {
   background: #555;
 }
 
+html {
+  height: 100%;
+}
+
 .bg-washed-blue  {
   background-color: #61dafb;
 }
