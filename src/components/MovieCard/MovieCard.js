@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../logo.svg';
+import pic from '../../assets/test-square.png';
 
 export default (props) => {
   const star = (
@@ -22,7 +22,7 @@ export default (props) => {
     <section>
       <article className="fl w-100 w-50-m w-25-ns pa2-ns mv3 dim pointer z-50" onClick={props.clicked}>
         <div className="aspect-ratio aspect-ratio--1x1 h-100 pb0 flex flex-row justify-center shadow-3 bg-white br3 br--top">
-          <img src={logo} alt="pic" className="dib w-100 h-100"/>
+          <img src={pic} alt="pic" className="dib w-100 h-100"/>
         </div>
         <a href="#" className="mt1 pv2 ph3 pb3 link db helvetica shadow-3 bg-white b3 br3 br--bottom">
           <h3 className="f5 f4-ns mb0 black-90">{truncateString(props.title, 15)}</h3>
