@@ -9,3 +9,4 @@
 - [x] when a movie clicked, it shows the description of the movie
 - [x] deploy to surge.sh http://ghiblimovielists.surge.sh/
 - [ ] add more pages (using router)
+- [ ] fetch image dynamincly
