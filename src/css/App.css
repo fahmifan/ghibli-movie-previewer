@@ -8,6 +8,14 @@ html {
   height: 100%;
 }
 
+.scroll-x-auto {
+  overflow-x: auto;
+}
+
+.mh-70 {
+  max-height: 70%;
+}
+
 .bg-washed-blue  {
   background-color: #61dafb;
 }
