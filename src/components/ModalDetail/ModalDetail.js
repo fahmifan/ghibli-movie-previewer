@@ -8,7 +8,7 @@ export default (props) => {
     <svg
       onClick={props.closeButtonClicked}
       className="h1 w1 fr ba center b--black-30 br-100 pa1 pointer"
-     xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg">
       <line x1="2" y1="13" 
             x2="13" y2="2" 
             stroke="black" 
@@ -25,7 +25,7 @@ export default (props) => {
   }
   return (
     <span 
-      className={`w5 bg-white fixed pa2 br3 tl z-200 helvetica shadow-3 ${isClose}`}>
+      className={`w5 mt3 mt6-ns w-50-ns bg-white fixed pa2 br3 tl z-200 helvetica shadow-3 ${isClose}`}>
       {closeIcon}
       <p className="f3 mt3">{title}</p>
       <p className="f5">Director: <i>{director}</i></p>
