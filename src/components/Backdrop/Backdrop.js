@@ -8,7 +8,7 @@ const backdrop = (props) => {
   return  (
     <div 
       onClick={props.clicked}
-      className={`Backdrop ${isDisplayed}`}
+      className={`Backdrop ${isDisplayed} pointer`}
       ></div> 
     );
 }
