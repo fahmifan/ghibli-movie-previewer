@@ -7,7 +7,7 @@ export default (props) => {
   const closeIcon = (
     <svg
       onClick={props.closeButtonClicked}
-      className="h1 w1 fr ba center b--black-30 br-100 pa1 pointer"
+      className="h1 w1 fr ba center b--black-30 br-100 pa1 pointer dim"
       xmlns="http://www.w3.org/2000/svg">
       <line x1="2" y1="13" 
             x2="13" y2="2" 
