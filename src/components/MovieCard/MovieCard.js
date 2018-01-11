@@ -8,6 +8,16 @@ export default (props) => {
     </svg>
   );
 
+  const truncateString = (str, num) => {
+    if(str.length > num) {
+      if(num <= 3) {
+        return  str.slice(0,num) + "...";
+      }
+      return  str.slice(0,num-3) + "...";
+    }
+    return str;
+  }
+
   return (
     <section>
       <article className="fl w-100 w-50-m w-25-ns pa2-ns mv3 dim pointer z-50" onClick={props.clicked}>
