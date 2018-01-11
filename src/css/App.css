@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
 @import "tachyons"; 
 body {
   background: #555;
@@ -19,6 +20,10 @@ html {
   left: 0;
   top: 0;
   background: rgba(0, 0, 0, 0.5)
+}
+
+.vt323 {
+  font-family: 'VT323', monospace;
 }
 
 .z-50 {
