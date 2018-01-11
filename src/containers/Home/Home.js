@@ -63,7 +63,7 @@ class Home extends Component {
       })
     }
     return (
-      <div className="w-90 w-100-ns pt5 mh0 center">
+      <div className="w-90 w-80-ns w-100-l pt5 mh0 center">
         {this.state.isModalShowed && (
           <div>
             <div className="flex flex-column items-center h-100"> 
