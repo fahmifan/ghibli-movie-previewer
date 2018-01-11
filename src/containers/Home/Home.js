@@ -66,7 +66,7 @@ class Home extends Component {
       <div className="w-90 w-80-ns w-100-l pt5 mh0 center">
         {this.state.isModalShowed && (
           <div>
-            <div className="flex flex-column items-center h-100"> 
+            <div className="flex flex-column items-center"> 
               <ModalDetail 
                 detail={this.state.movieDetail} 
                 closeButtonClicked={this.modalCloseClicked}
