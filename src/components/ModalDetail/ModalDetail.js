@@ -25,7 +25,7 @@ export default (props) => {
   }
   return (
     <span 
-      className={`w5 mt3 mt6-ns w-50-ns bg-white fixed pa2 br3 tl z-200 helvetica shadow-3 ${isClose}`}>
+      className={`w5 mt3 mt5-ns w-50-ns bg-white fixed pa2 br3 tl z-200 helvetica shadow-3 ${isClose}`}>
       {closeIcon}
       <p className="f3 mt3">{title}</p>
       <p className="f5">Director: <i>{director}</i></p>
