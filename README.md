@@ -10,3 +10,5 @@
 - [x] deploy to surge.sh http://ghiblimovielists.surge.sh/
 - [ ] add more pages (using router)
 - [ ] fetch image dynamincly
+
+![preview](https://dl.dropboxusercontent.com/content_link/8btS2MBwywATs7FN4j14qDUrpKR1Pz2hQFxhX6wALAQvADJvaoviy2gtKgu2l0sJ/file?dl=0&duc_id=mOeBoB61BIECVohlcPe0a0Z8L2XpxqUkHJxZI5S8JuOZgSxbr07ET3QbcQPvsk7a&raw=1&size=1280x960&size_mode=3)
